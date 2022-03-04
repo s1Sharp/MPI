@@ -1,8 +1,1 @@
-From process 5: Hello, World!
-From process 2: Hello, World!
-From process 4: Hello, World!
-From process 6: Hello, World!
-From process 0: Hello, World!
-From process 7: Hello, World!
-From process 1: Hello, World!
-From process 3: Hello, World!
+���������� ����������

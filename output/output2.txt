@@ -1,0 +1,9 @@
+
+Total Max = 287, Local Max = 283 from 4 procces
+Total Max = 287, Local Max = 281 from 2 procces
+Total Max = 287, Local Max = 291 from 1 procces
+Total Max = 291, Local Max = 290 from 5 procces
+Total Max = 291, Local Max = 297 from 3 procces
+Total Max = 297, Local Max = 290 from 6 procces
+Total Max = 297, Local Max = 289 from 7 procces
+Total Max = 297
