@@ -12,11 +12,13 @@ set(EXECUTABLE_OUTPUT_PATH  ${EXE_DIR})
 find_package(OpenMP)
 find_package(MPI)
 
+#target_link_libraries(task1 PUBLIC OpenMP::OpenMP_CXX)
 
 add_executable(task1 task1.cpp)   
-target_link_libraries(task1 PUBLIC OpenMP::OpenMP_CXX)
 target_link_libraries(task1 PUBLIC MPI::MPI_CXX)
 
 add_executable(task2 task2.cpp)    
-target_link_libraries(task2 PUBLIC OpenMP::OpenMP_CXX)
 target_link_libraries(task2 PUBLIC MPI::MPI_CXX)
+
+add_executable(task3 task3.cpp)    
+target_link_libraries(task3 PUBLIC MPI::MPI_CXX)

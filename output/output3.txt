@@ -1,0 +1,3 @@
+Number of Points Used:	1000000
+Estimate of Pi:	      3.1367360000000000
+Elapsed Wall time ms:	66.48220

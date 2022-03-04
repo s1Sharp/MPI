@@ -3,6 +3,9 @@ exe =  executable\Release\task
 n=4
 numberofprocess=$(n)
 run = mpiexec -n $(numberofprocess)
+INT_MAX = 2147483647
+
+task3_options_number_iter=1000000
 
 all: mkdir task1 task2 task3 task4 task5 task6 task7 task8 task9 task10 task11 task12 task13
 
@@ -16,7 +19,7 @@ task2: mkdir
 	$(run) $(exe)2.exe  > $(of)2.txt
 
 task3: mkdir
-	$(run) $(exe)3.exe  > $(of)3.txt
+	$(run) $(exe)3.exe $(task3_options_number_iter) > $(of)3.txt
 
 task4: mkdir
 	$(run) $(exe)4.exe  > $(of)4.txt
