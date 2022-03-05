@@ -33,6 +33,7 @@ double Multiplication(double *vector1, double* vector2, int size)
 
 int main(int argc, char** argv)
 {
+	srand(time(0));
     int ProcRank = 0;
     int ProcNum = 0;
 	double* pVector1; // Первый вектор для умножения
