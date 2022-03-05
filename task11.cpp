@@ -62,8 +62,6 @@ void circle(int num, MPI_Comm comm) {
         printf("Result: %d\n", *recv);
         flushing
     }
-
-
 }
 
 #define NUMBER 10
