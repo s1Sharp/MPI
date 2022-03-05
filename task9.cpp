@@ -10,7 +10,8 @@
 #define ARR_LENGTH 8
 
 int main(int argc, char** argv) {
-
+    srand(time(0));
+    
     int ProcNum;
     int ProcRank;
     int arrLength = ARR_LENGTH;
