@@ -71,7 +71,7 @@ int main(int argc, char** argv) {
             sendcounts[i] = partition * columns;
         }
 
-        if(lines % ProcNum != 0) {
+        if(lines % ProcNum != GENERAL_PROCCESS) {
             sendcounts[ProcNum-1] = (lines - partition * (ProcNum-1)) * columns;
         }
     }
