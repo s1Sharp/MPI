@@ -1,0 +1,11 @@
+Local average: 3504.458008, thread: 2
+Local average: 3865.354980, thread: 8
+Local average: 3605.032959, thread: 9
+Local average: 3528.084961, thread: 1
+Local average: 3816.350098, thread: 0
+Local average: 3741.997070, thread: 3
+Local average: 3319.592041, thread: 5
+Local average: 3152.164062, thread: 6
+Local average: 3408.110107, thread: 4
+Local average: 3515.220947, thread: 7
+Final average: 3545.636230 
