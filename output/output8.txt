@@ -1,0 +1,15 @@
+partition 3
+41 467 334 500 169 724 478 358 
+
+thread (rank) = 0
+41 467 334 
+
+partition 3
+thread (rank) = 2
+478 358 
+
+partition 3
+thread (rank) = 1
+500 169 724 
+
+Answer: 41 467 334 500 169 724 478 358 
