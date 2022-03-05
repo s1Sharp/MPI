@@ -51,3 +51,6 @@ task12: mkdir
 
 task13: mkdir
 	$(run) $(exe)13.exe  > $(of)13.txt
+
+task14: mkdir
+	$(run) $(exe)14.exe  > $(of)14.txt
