@@ -14,20 +14,23 @@ find_package(MPI)
 
 #target_link_libraries(task1 PUBLIC OpenMP::OpenMP_CXX)
 
-add_executable(task1 task1.cpp)   
+add_executable(task1 task1.cpp)
 target_link_libraries(task1 PUBLIC MPI::MPI_CXX)
 
-add_executable(task2 task2.cpp)    
+add_executable(task2 task2.cpp)
 target_link_libraries(task2 PUBLIC MPI::MPI_CXX)
 
-add_executable(task3 task3.cpp)    
+add_executable(task3 task3.cpp)
 target_link_libraries(task3 PUBLIC MPI::MPI_CXX)
 
-add_executable(task4 task4.cpp)    
+add_executable(task4 task4.cpp)
 target_link_libraries(task4 PUBLIC MPI::MPI_CXX)
 
-add_executable(task5 task5.cpp)    
+add_executable(task5 task5.cpp)
 target_link_libraries(task5 PUBLIC MPI::MPI_CXX)
 
-add_executable(task6 task6.cpp)    
+add_executable(task6 task6.cpp)
 target_link_libraries(task6 PUBLIC MPI::MPI_CXX)
+
+add_executable(task7 task7.cpp)
+target_link_libraries(task7 PUBLIC MPI::MPI_CXX)

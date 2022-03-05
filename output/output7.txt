@@ -1,0 +1,12 @@
+
+matrix
+3 2 4 6 
+2 4 7 7 
+6 8 8 3 
+4 3 2 1 
+
+vector
+4 3 5 1 
+
+result vector
+44 62 91 36 
