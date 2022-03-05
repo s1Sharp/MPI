@@ -1,0 +1,61 @@
+procRank: 2, 8 8
+procRank: 2, 9 9
+procRank: 2, 10 10
+procRank: 2, 11 11
+procRank: 2, 12 12
+procRank: 2, 13 13
+procRank: 2, 8 8
+procRank: 2, 9 9
+procRank: 2, 10 10
+procRank: 2, 11 11
+procRank: 2, 12 12
+
+procRank: 3, 13 13
+procRank: 3, 14 14
+procRank: 3, 15 15
+procRank: 3, 9 9
+procRank: 3, 10 10
+procRank: 3, 11 11
+procRank: 3, 12 12
+procRank: 3, 13 13
+procRank: 3, 14 14
+procRank: 3, 15 15
+procRank: 3, 16 16
+procRank: 3, 17 17
+
+procRank: 1, 6 6
+procRank: 1, 7 7
+procRank: 1, 8 8
+procRank: 1, 9 9
+procRank: 1, 6 6
+procRank: 1, 7 7
+procRank: 1, 8 8
+procRank: 1, 9 9
+procRank: 1, 10 10
+procRank: 1, 11 11
+procRank: 1, 7 7
+
+0	1	2	3	4	5	6	7	8	9	
+1	2	3	4	5	6	7	8	9	10	
+2	3	4	5	6	7	8	9	10	11	
+3	4	5	6	7	8	9	10	11	12	
+4	5	6	7	8	9	10	11	12	13	
+5	6	7	8	9	10	11	12	13	14	
+6	7	8	9	10	11	12	13	14	15	
+7	8	9	10	11	12	13	14	15	16	
+8	9	10	11	12	13	14	15	16	17	
+9	10	11	12	13	14	15	16	17	18	
+
+procRank: 0, 1 1
+procRank: 0, 2 2
+procRank: 0, 3 3
+procRank: 0, 3 3
+procRank: 0, 4 4
+procRank: 0, 5 5
+procRank: 0, 4 4
+procRank: 0, 5 5
+procRank: 0, 6 6
+procRank: 0, 7 7
+procRank: 0, 5 5
+
+Matrix is symmetric
