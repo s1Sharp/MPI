@@ -17,7 +17,7 @@ int main(int argc, char* argv[]) {
     MPI_Comm_rank(MPI_COMM_WORLD, &ProcRank);
     MPI_Comm_size(MPI_COMM_WORLD, &ProcNum);
     
-    if(argc !=2 || atoi(argv[1]) > (INT_MAX / 4)) {
+    if(argc !=2 || atoi(argv[1]) > (INT_MAX / ProcNum)) {
         if (ProcRank == GENERAL_PROCCESS) {
             fprintf(stderr,"Incorrect Iter Count\n");
             fflush(stderr);
