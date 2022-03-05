@@ -28,3 +28,6 @@ target_link_libraries(task4 PUBLIC MPI::MPI_CXX)
 
 add_executable(task5 task5.cpp)    
 target_link_libraries(task5 PUBLIC MPI::MPI_CXX)
+
+add_executable(task6 task6.cpp)    
+target_link_libraries(task6 PUBLIC MPI::MPI_CXX)
