@@ -14,9 +14,9 @@
 template<typename T>
 void rand_vec(T* vec, size_t size)
 {
+    int radius = ((int)size * RANDOM_SPREAD_COEFFICIENT);
 	for (size_t i = 0; i < size; ++i)
 	{
-        int radius = ((int)size * RANDOM_SPREAD_COEFFICIENT);
 		vec[i] = rand() % radius - radius/2;
 	}
     return;
