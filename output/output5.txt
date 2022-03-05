@@ -1,0 +1,8 @@
+local result:-1237469.000000, thread 0
+local result:24287424.000000, thread 4
+local result:-12206581.000000, thread 2
+local result:5520029.000000, thread 1
+local result:-6030856.000000, thread 5
+local result:16246834.000000, thread 3
+calculation result: 26579381.000000
+Size: 1000 ProcNum: 6 time ms: 15.888300 Precision: 0.000000
