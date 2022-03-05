@@ -52,7 +52,8 @@ int main(int argc, char** argv) {
     int *send_arr = new int[lines * columns];
 
     int *buf = new int[partition * columns];
-// генерируем матрицу, и представляем ее в виде массива
+
+    //generate matrix and insert into 1 way massive
     if (ProcRank == GENERAL_PROCCESS) {
 
         for (int i = 0; i < lines; i++) {
@@ -75,20 +76,20 @@ int main(int argc, char** argv) {
         }
     }
 
-// послыаем каждому процессу часть массива
+    // send chunk of vector to each thread
     MPI_Scatterv(send_arr, sendcounts, displs, MPI_INT, buf, partition * columns, MPI_INT, GENERAL_PROCCESS, MPI_COMM_WORLD);
 
     int local_ans_max = INT_MIN;
 
-    // проходим по каждой строке
+    // let idx to each row
     for (int i = 0; i < partition; ++i) {
         int local_min = buf[columns * i];
-        // проходим по каждому элементу в строке; ищем в каждой строке минимум
+        // let idx to each element in row
         for (int j = 0; j < columns; ++j) {
-            // ищем в каждой строке минимум
+            // find local min in each row
             if (buf[columns * i + j] < local_min) local_min = buf[columns * i + j];
         }
-        // максимум среди минимумов
+        // find max from each min
         if (local_ans_max < local_min) local_ans_max = local_min;
     }
 

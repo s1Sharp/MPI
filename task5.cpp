@@ -36,14 +36,14 @@ int main(int argc, char** argv)
 	srand(time(0));
     int ProcRank = 0;
     int ProcNum = 0;
-	double* pVector1; // Первый вектор для умножения
-	double* pVector2; // Второй вектор для умножения
-	double* procVector1; //Распараллеленный кусок первого вектора
-	double* procVector2; //Распараллеленный кусок второго вектора
-	double pResult = 0.0; // Результат скалярного умножения векторов
-	double currentResult; //Результат умножения "маленьких" векторов
-	int Size; // Размеры исходных векторов
-	int currentSize; // Размер распараллеленных векторов
+	double* pVector1; // first vector for multiply
+	double* pVector2; // second vector for multiply
+	double* procVector1; // part of first vector for parralel thread
+	double* procVector2; // part of second vector for parralel thread
+	double pResult = 0.0; // result of scalar multiply
+	double currentResult; // local result of scalar multiply for each thread
+	int Size; // size of vectors
+	int currentSize; // local size of vector for each thread
 	double startTime, endTime;
 
 	MPI_Init(&argc, &argv);
