@@ -41,7 +41,7 @@ task9: mkdir
 	$(run) $(exe)9.exe  > $(of)9.txt
 
 task10: mkdir
-	$(run) $(exe)10.exe  > $(of)10.txt
+	mpiexec -n 2 $(exe)10.exe  > $(of)10.txt
 
 task11: mkdir
 	$(run) $(exe)11.exe  > $(of)11.txt

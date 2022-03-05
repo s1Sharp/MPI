@@ -1,0 +1,9 @@
+Array Length: 8
+Default Send - Recv
+Time Send: 0.722 
+Synchronous send
+Time Ssend: 0.021 
+Buffered send
+Time Bsend: 0.038 
+Ready send
+Time Rsend: 0.022 
