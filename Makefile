@@ -6,6 +6,7 @@ run = mpiexec -n $(numberofprocess)
 INT_MAX = 2147483647
 
 task3_options_number_iter=1000000
+task5_options_mas_size=1000
 
 all: mkdir task1 task2 task3 task4 task5 task6 task7 task8 task9 task10 task11 task12 task13
 
@@ -25,7 +26,7 @@ task4: mkdir
 	$(run) $(exe)4.exe  > $(of)4.txt
 
 task5: mkdir
-	$(run) $(exe)5.exe  > $(of)5.txt
+	$(run) $(exe)5.exe $(task5_options_mas_size) > $(of)5.txt
 
 task6: mkdir
 	$(run) $(exe)6.exe  > $(of)6.txt
